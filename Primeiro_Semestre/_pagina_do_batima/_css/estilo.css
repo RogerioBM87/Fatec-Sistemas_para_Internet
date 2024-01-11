@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+   width: 1000px;
+   color: #0041FF;
+}
+header.cabecalho {
+    background-image: url(../_imagens/cabecalho.png);
+    width: 1000px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+}
+nav#navi {
+    background-color: #ffffff;
+    width: 100%;
+    border: 0px;
+}
+nav#navi ul li {
+    display: inline;
+    font-size: xx-large;
+    padding: 0px 28px 0px 28px;
+    border: solid 3px #0041FF;; 
+}
+nav a {
+    color: #0041FF;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+h1, h2 {
+    font-size: xx-large;
+}
+p.subl {
+    text-decoration: underline;
+}
+main {
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+article {
+    padding: 20px;
+    width: 650px;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+aside.bat {
+    width: 250px;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+aside.bat figure {
+    padding-left: 0px;
+    margin: 22px 0px 0px -5px;
+}
+section {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+figcaption {
+    text-align: center;  
+}
+figcaption a {
+    padding: 0px;
+    font-size: x-large;
+    color: #0041FF;
+    text-decoration: none;
+}
+figcaption a:hover {
+    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+}
+footer#pe {
+    width: 990px;
+    border: solid 5px #0041FF;;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+}
+footer ul li {
+    margin: -5px -10px -5px -10px;
+    font-size: smaller;
+}
+section.foo {
+    margin: -5px -60px -5px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+figure.pe1 {
+    margin: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+aside.pe2 {
+    margin: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: -50px;
+}
+figure.list {
+    padding: 0px;
+    margin: 0px -55px 0px 55px;
+}
+aside.pe3 {
+    margin: -5px -50px -5px -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+figure.pe4 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
