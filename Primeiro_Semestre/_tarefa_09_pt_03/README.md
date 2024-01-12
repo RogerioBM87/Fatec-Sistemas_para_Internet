@@ -8,4 +8,4 @@
  Trabalho realizado em Duplas.
 
  * Pedro Zuccari
- * Rogério Bião
+ * [Rogério Bião](https://github.com/RogerioBM87)
